@@ -6,8 +6,7 @@ vector<int> mergeSortedArrays(vector<int>& arr1, vector<int>& arr2) {
     int n = arr1.size();
     int m = arr2.size();
     vector<int> merged;
-    merged.reserve(n + m);
-
+    
     int i = 0, j = 0;
     while (i < n && j < m) {
         if (arr1[i] <= arr2[j]) {
