@@ -3,7 +3,7 @@
 using namespace std;
 
 int secondLargest(vector<int>& arr) {
-    if (arr.size() < 2) return -1;
+    if (arr.size() < 2) return -1{
 
     int largest = INT_MIN, second = INT_MIN;
 
