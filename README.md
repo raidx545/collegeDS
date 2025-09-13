@@ -22,7 +22,7 @@ A comprehensive collection of in-class programs, assignments, and data structure
 
 ## 🎓 College Info
 
-Computer Science Engineering • Data Structures Course
+ABES ENGINEERING • COLLEGE Computer Science Engineering • Data Structures Course
 
 ---
 
