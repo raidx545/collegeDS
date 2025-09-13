@@ -7,7 +7,7 @@ A comprehensive collection of in-class programs, assignments, and data structure
 ## 📈 Stats
 
 - **5** Programs  
-- **3** Data Structures  
+- **4** Data Structures  
 - **3** Algorithms  
 - **100%** Learning
 
