@@ -1,18 +1,18 @@
-// Online C++ compiler to run C++ program online
 #include <iostream>
 #include <vector>
 using namespace std ;
 int main() {
-    // Write C++ code here
-    std::cout << "Try programiz.pro";
-    int arr1[] = {2,3,5,6,9,10};
-    int m = 6 ;
-    int n = 4 ;
-    int arr2[] = {4,6,9,10};
+    int m , n ;
+    cout<<"Enter the size of array1(m) and array2(n) "<<endl ;
+    cin>>m>>n ;
+    int arr1[m] , arr2[n];
+    cout<"Enter all the elements of array 1" << endl ;
+    for(int k = 0 ; k < m ; k++) cin>>arr1[k];
+    cout<<"Enter all the elements of array 2" << endl ;
+    for(int k = 0 ; k < n ; k++) cin>>arr2[k];
     vector<int> arr3 ;
     int i = 0 ;
     int j = 0 ;
-    int k = 0;
     while(i<m && j < n){
         if(arr1[i]<arr2[j]){
             arr3.push_back(arr1[i++]);
